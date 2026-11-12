@@ -1,0 +1,1842 @@
+{
+  "updated": "2026-11-11",
+  "buses": [
+    {
+      "id": 1,
+      "number": "1",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Mannagudda",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kavoor",
+        "MCF Colony",
+        "Kunjathbail"
+      ]
+    },
+    {
+      "id": 26,
+      "number": "1A",
+      "confidence": "high",
+      "stops": ["State Bank", "Lalbagh", "Urva Stores", "Kulur", "Tannirbavi"]
+    },
+    {
+      "id": 27,
+      "number": "1B",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Mannagudda",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kodikal"
+      ]
+    },
+    {
+      "id": 28,
+      "number": "1C",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Hampankatta",
+        "Shedigudde",
+        "Lalbagh",
+        "Ladyhill",
+        "Kodikal Cross",
+        "Kodikal"
+      ],
+      "note": "Both sources start this route at Mangaladevi; this data starts at State Bank."
+    },
+    {
+      "id": 29,
+      "number": "2",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Lalbagh",
+        "Ashoknagar",
+        "Baikampady",
+        "Surathkal",
+        "Mukka"
+      ]
+    },
+    {
+      "id": 37,
+      "number": "2A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Lalbagh",
+        "Ashoknagar",
+        "Baikampady",
+        "Surathkal",
+        "Mukka",
+        "Sasihitlu"
+      ]
+    },
+    {
+      "id": 38,
+      "number": "2B",
+      "confidence": "high",
+      "stops": [
+        "Bengare",
+        "Tannirbavi",
+        "Kulur",
+        "Panambur",
+        "Jokatte",
+        "Kana",
+        "Port Temple",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 39,
+      "number": "2C",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Lalbagh",
+        "Ashoknagar",
+        "Baikampady",
+        "Baikampady Industrial Estate",
+        "Jokatte"
+      ]
+    },
+    {
+      "id": 40,
+      "number": "2D",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Lalbagh",
+        "Ashoknagar",
+        "Baikampady",
+        "Baikampady Industrial Estate",
+        "Jokatte",
+        "Parkodi"
+      ]
+    },
+    {
+      "id": 41,
+      "number": "2E",
+      "confidence": "high",
+      "stops": [
+        "Kankanady",
+        "Jyothi",
+        "Lalbagh",
+        "Ashoknagar",
+        "Baikampady",
+        "Baikampady Industrial Estate",
+        "Jokatte",
+        "Kalavar",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 42,
+      "number": "2F",
+      "confidence": "low",
+      "stops": [
+        "Kankanady",
+        "Jyothi",
+        "Lalbagh",
+        "Ashoknagar",
+        "Baikampady",
+        "Baikampady Industrial Estate",
+        "Jokatte",
+        "Kalavar",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 43,
+      "number": "3",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kudupu",
+        "Vamanjoor",
+        "Moodushedde"
+      ]
+    },
+    {
+      "id": 52,
+      "number": "3A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kudupu",
+        "Vamanjoor",
+        "Moodushedde"
+      ]
+    },
+    {
+      "id": 53,
+      "number": "3B",
+      "confidence": "low",
+      "stops": [
+        "Mangaladevi",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kudupu",
+        "Vamanjoor",
+        "Moodushedde"
+      ]
+    },
+    {
+      "id": 54,
+      "number": "3C",
+      "confidence": "high",
+      "stops": [
+        "Mangaladevi",
+        "Valencia",
+        "Nanthur",
+        "Kudpu Temple",
+        "Mangala Jyoti",
+        "Moodushedde"
+      ]
+    },
+    {
+      "id": 55,
+      "number": "3D",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Kadri",
+        "Vamanjoor",
+        "Ulaibettu"
+      ]
+    },
+    {
+      "id": 56,
+      "number": "4",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Kankanady",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kulshekar Chowki"
+      ]
+    },
+    {
+      "id": 79,
+      "number": "4A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Kankanady",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Kulshekar",
+        "Kaikamba",
+        "Neermarga",
+        "Merlapadavu"
+      ]
+    },
+    {
+      "id": 80,
+      "number": "4C",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Kankanady",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Kulshekar",
+        "Kaikamba",
+        "Neermarga"
+      ]
+    },
+    {
+      "id": 81,
+      "number": "5",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bendoorwell",
+        "Kankanady",
+        "Nandigudda",
+        "Marnamikatta",
+        "Morgan Gate"
+      ]
+    },
+    {
+      "id": 94,
+      "number": "6A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Shaktinagar"
+      ]
+    },
+    {
+      "id": 95,
+      "number": "6B",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Kankanady",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Shaktinagar"
+      ]
+    },
+    {
+      "id": 96,
+      "number": "6C",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Shaktinagar"
+      ]
+    },
+    {
+      "id": 97,
+      "number": "7",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Alake",
+        "Mannagudda",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores"
+      ]
+    },
+    {
+      "id": 98,
+      "number": "9A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Pandeshwar",
+        "Jeppu",
+        "Morgan Gate",
+        "Jeppupatna",
+        "Ekkur",
+        "Mugeru",
+        "Bajal",
+        "Bajal Pakkaladka",
+        "J.M. Road"
+      ]
+    },
+    {
+      "id": 99,
+      "number": "9B",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Pumpwell",
+        "Ekkur",
+        "Mugeru",
+        "Bajal",
+        "Bajal Pakkaladka",
+        "J.M. Road"
+      ],
+      "note": "Route list used to continue to Railway Junction; both sources end it at J.M. Road, so that last stop was removed."
+    },
+    {
+      "id": 2,
+      "number": "10A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Nagori",
+        "Padil",
+        "Kannurbettu",
+        "Adyar",
+        "Adyar Launch Jetty"
+      ],
+      "note": "Final stop was typed as \"Launch Jetty\"; read as Adyar Launch Jetty (matches bus 30B)."
+    },
+    {
+      "id": 3,
+      "number": "10B",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Balmatta",
+        "Kankanady",
+        "Pumpwell",
+        "Nagori",
+        "Padil",
+        "Kannurbettu",
+        "Adyar"
+      ]
+    },
+    {
+      "id": 4,
+      "number": "11A",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "RTO",
+        "Railway Central",
+        "Falnir",
+        "Kankanady",
+        "Nagori",
+        "Garodi",
+        "Padil",
+        "Kannurbettu",
+        "Adyar"
+      ],
+      "note": "Stop list continues to Adyar; sources disagree on whether the bus ends at Kannurbettu or Adyar."
+    },
+    {
+      "id": 5,
+      "number": "11B",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Kankanady",
+        "Nagori",
+        "Garodi",
+        "Padil",
+        "Jalligudde"
+      ]
+    },
+    {
+      "id": 6,
+      "number": "12A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kudupu",
+        "Vamanjoor",
+        "Gurupura",
+        "Kaikamba",
+        "Addoor",
+        "Polali"
+      ]
+    },
+    {
+      "id": 7,
+      "number": "12B",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Kadri",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kudupu",
+        "Vamanjoor",
+        "Gurupura",
+        "Kaikamba",
+        "Addoor",
+        "Polali",
+        "Kolthamajal"
+      ]
+    },
+    {
+      "id": 8,
+      "number": "13",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Mannagudda",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores"
+      ]
+    },
+    {
+      "id": 9,
+      "number": "13A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Mannagudda",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara"
+      ]
+    },
+    {
+      "id": 10,
+      "number": "13C",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Kudremukh Housing Colony",
+        "Hudco Colony",
+        "Govt. Women's Polytechnic",
+        "Govt. Quarters",
+        "Kavoor",
+        "Bondel"
+      ]
+    },
+    {
+      "id": 11,
+      "number": "13D",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Kudremukh Housing Colony",
+        "Hudco Colony",
+        "Govt. Women's Polytechnic",
+        "Govt. Quarters",
+        "Kavoor",
+        "Bondel",
+        "Padangady",
+        "Pacchanady Beggari Colony"
+      ]
+    },
+    {
+      "id": 12,
+      "number": "13E",
+      "confidence": "low",
+      "stops": [
+        "Mangaladevi",
+        "Bendoorwell",
+        "Jyothi",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Kudremukh Housing Colony",
+        "Hudco Colony",
+        "Govt. Women's Polytechnic",
+        "Govt. Quarters",
+        "Kavoor",
+        "Bondel"
+      ],
+      "note": "Both sources list a Kunjathbail-Surathkal route under this number; this data has Mangaladevi-Bondel."
+    },
+    {
+      "id": 13,
+      "number": "14A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Akashavani",
+        "KPT",
+        "Yeyyadi",
+        "Konchadi",
+        "Padangady",
+        "Bondel"
+      ]
+    },
+    {
+      "id": 14,
+      "number": "14B",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Falnir",
+        "Bendoorwell",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Akashavani",
+        "KPT",
+        "Yeyyadi",
+        "Konchadi",
+        "Padangady",
+        "Bondel"
+      ]
+    },
+    {
+      "id": 15,
+      "number": "14C",
+      "confidence": "high",
+      "stops": [
+        "Mangaladevi",
+        "Morgan Gate",
+        "Attavar",
+        "Yemmekere",
+        "Nandigudda",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Akashavani",
+        "KPT",
+        "Yeyyadi",
+        "Konchadi",
+        "Padangady",
+        "Bondel"
+      ]
+    },
+    {
+      "id": 16,
+      "number": "15",
+      "confidence": "high",
+      "stops": [
+        "Mangaladevi",
+        "Morgan Gate",
+        "Nandigudda",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri Market",
+        "Nanthur",
+        "Akashavani",
+        "Bejai",
+        "KSRTC Bus Stand",
+        "Bharat Mall",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Baikampady",
+        "Surathkal"
+      ]
+    },
+    {
+      "id": 17,
+      "number": "15A",
+      "confidence": "medium",
+      "stops": [
+        "Mangaladevi",
+        "Morgan Gate",
+        "Nandigudda",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri Market",
+        "Nanthur",
+        "Akashavani",
+        "Bejai",
+        "KSRTC Bus Stand",
+        "Bharat Mall",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Baikampady",
+        "Surathkal",
+        "Krishnapur",
+        "Katipalla"
+      ]
+    },
+    {
+      "id": 18,
+      "number": "15B",
+      "confidence": "medium",
+      "stops": [
+        "Mangaladevi",
+        "Morgan Gate",
+        "Nandigudda",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri Market",
+        "Nanthur",
+        "Akashavani",
+        "Bejai",
+        "KSRTC Bus Stand",
+        "Bharat Mall",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Baikampady",
+        "Surathkal",
+        "Krishnapur",
+        "Katipalla",
+        "Chelairpadavu"
+      ]
+    },
+    {
+      "id": 19,
+      "number": "16",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Mission Street",
+        "Azizzudin Road",
+        "Kandathpalli",
+        "Mandi",
+        "Gokarnath Temple",
+        "Kudroli",
+        "Bokkapatna",
+        "Boloor",
+        "Sulthan Battery"
+      ]
+    },
+    {
+      "id": 20,
+      "number": "16A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Alake",
+        "Kudroli",
+        "Bokkapatna",
+        "Boloor",
+        "Sulthan Battery"
+      ]
+    },
+    {
+      "id": 21,
+      "number": "17",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Konchadi",
+        "Mullakadu",
+        "Kavoor",
+        "Maravoor",
+        "Kunjathbail"
+      ]
+    },
+    {
+      "id": 22,
+      "number": "17A",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Konchadi",
+        "Mullakadu",
+        "Kavoor",
+        "Maravoor",
+        "Kunjathbail"
+      ]
+    },
+    {
+      "id": 23,
+      "number": "17B",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Konchadi",
+        "Mullakadu",
+        "Kavoor",
+        "Maravoor",
+        "Kunjathbail"
+      ]
+    },
+    {
+      "id": 24,
+      "number": "18",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Pandeshwar",
+        "Hoige Bazar",
+        "Bolar",
+        "Jeppu Market",
+        "Morgan Gate"
+      ]
+    },
+    {
+      "id": 25,
+      "number": "19",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Hampankatta",
+        "Jyothi",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Bejai",
+        "KPT",
+        "Yeyyadi",
+        "Konchadi",
+        "Padavinangadi",
+        "Bondel",
+        "Pacchanady"
+      ]
+    },
+    {
+      "id": 30,
+      "number": "21",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Kaikamba",
+        "Neermarga"
+      ]
+    },
+    {
+      "id": 31,
+      "number": "22",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Vamanjoor",
+        "Gurupura",
+        "Kaikamba",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 32,
+      "number": "22A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Kulshekar",
+        "Vamanjoor",
+        "Gurupura",
+        "Kaikamba",
+        "Bajpe",
+        "Bajpe Airport"
+      ],
+      "note": "Sources name the terminus Adyapady (the Bajpe airport road); stop list here ends at Bajpe Airport."
+    },
+    {
+      "id": 33,
+      "number": "23",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Balmatta",
+        "Kankanady",
+        "Pumpwell",
+        "Nagori",
+        "Garodi",
+        "Padil",
+        "Faisalnagar"
+      ]
+    },
+    {
+      "id": 34,
+      "number": "27",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Attavar",
+        "Nandigudda",
+        "Marnamikatta",
+        "Mangaladevi"
+      ]
+    },
+    {
+      "id": 35,
+      "number": "27A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Attavar",
+        "Nandigudda",
+        "Marnamikatta",
+        "Mangaladevi",
+        "Mulihitlu"
+      ]
+    },
+    {
+      "id": 36,
+      "number": "29",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Pandeshwar",
+        "Yemmekere",
+        "Bolar",
+        "Jeppu Market",
+        "Morgan Gate"
+      ]
+    },
+    {
+      "id": 44,
+      "number": "30",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Balmatta",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Maroli",
+        "Padil"
+      ]
+    },
+    {
+      "id": 45,
+      "number": "30A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Balmatta",
+        "First Neuro",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Maroli",
+        "Padil",
+        "Kannurbettu",
+        "Adyar"
+      ],
+      "note": "Typo \"First nureo\" corrected to First Neuro."
+    },
+    {
+      "id": 46,
+      "number": "30B",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Balmatta",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Maroli",
+        "Padil",
+        "Kannurbettu",
+        "Adyar",
+        "Adyar Launch Jetty"
+      ]
+    },
+    {
+      "id": 47,
+      "number": "31",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "PVS",
+        "Canara College",
+        "Empire Mall",
+        "Ballalbagh",
+        "Mannagudda",
+        "Urva Market",
+        "Shediguri"
+      ]
+    },
+    {
+      "id": 48,
+      "number": "31A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Canara College",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Urva Market",
+        "Ashoknagar"
+      ]
+    },
+    {
+      "id": 49,
+      "number": "31B",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Car Street",
+        "Mannagudda",
+        "Urva Market",
+        "Ashoknagar",
+        "Dombel"
+      ]
+    },
+    {
+      "id": 50,
+      "number": "33",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Derebail",
+        "Konchadi",
+        "Akashbhavan"
+      ]
+    },
+    {
+      "id": 51,
+      "number": "37",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Balmatta",
+        "Kankanady",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "Bikkarnakatta",
+        "Maroli",
+        "Padil"
+      ]
+    },
+    {
+      "id": 57,
+      "number": "41A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Baikampady",
+        "Surathkal",
+        "Krishnapur",
+        "Katipalla",
+        "Chelairpadavu"
+      ]
+    },
+    {
+      "id": 58,
+      "number": "42",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Kotekar",
+        "Beeri",
+        "Talapady"
+      ]
+    },
+    {
+      "id": 59,
+      "number": "43",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Kotekar",
+        "Beeri",
+        "Talapady",
+        "Kinya"
+      ]
+    },
+    {
+      "id": 60,
+      "number": "44A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Ullal",
+        "Someshwar"
+      ]
+    },
+    {
+      "id": 61,
+      "number": "44B",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Kotekar",
+        "Eliaradavu"
+      ]
+    },
+    {
+      "id": 62,
+      "number": "44C",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Ullal",
+        "Ullal Launch Jetty"
+      ]
+    },
+    {
+      "id": 63,
+      "number": "44D",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Ullal",
+        "Kotepura"
+      ]
+    },
+    {
+      "id": 64,
+      "number": "45",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla"
+      ]
+    },
+    {
+      "id": 65,
+      "number": "45A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Chokkabettu"
+      ]
+    },
+    {
+      "id": 66,
+      "number": "45B",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Chokkabettu"
+      ]
+    },
+    {
+      "id": 67,
+      "number": "45C",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Mangalpete",
+        "Kaikamba"
+      ]
+    },
+    {
+      "id": 68,
+      "number": "45D",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Mangalpete",
+        "MRPL",
+        "Kuthethur"
+      ]
+    },
+    {
+      "id": 69,
+      "number": "45E",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Mangalpete",
+        "MRPL",
+        "Kaithakurneri"
+      ]
+    },
+    {
+      "id": 70,
+      "number": "45F",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Kaikamba"
+      ]
+    },
+    {
+      "id": 71,
+      "number": "45G",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Mason Road",
+        "Janatha Colony"
+      ]
+    },
+    {
+      "id": 72,
+      "number": "45H",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Madhyapadavu"
+      ]
+    },
+    {
+      "id": 73,
+      "number": "47",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Kavoor",
+        "Maravoor",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 74,
+      "number": "47A",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Kavoor",
+        "Maravoor",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 75,
+      "number": "47B",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Kavoor",
+        "Maravoor",
+        "Bajpe",
+        "Bajpe Airport"
+      ],
+      "note": "Sources name the terminus Adyapady (the Bajpe airport road); stop list here ends at Bajpe Airport."
+    },
+    {
+      "id": 76,
+      "number": "47C",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Kapikad",
+        "Balebail",
+        "Kottara Cross",
+        "Kuntikana",
+        "Kavoor",
+        "Maravoor",
+        "Bajpe",
+        "Bajpe Airport",
+        "Bhatrakere",
+        "Kattalsara"
+      ]
+    },
+    {
+      "id": 77,
+      "number": "48",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Jyothi",
+        "Bunts Hostel",
+        "Mallikatte",
+        "Kadri",
+        "Nanthur",
+        "KPT",
+        "Yeyyadi",
+        "Konchadi",
+        "Bondel",
+        "Kavoor",
+        "Maravoor",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 78,
+      "number": "48A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Hampankatta",
+        "Jyothi",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Saibeen Complex",
+        "Bharat Mall",
+        "KSRTC Bus Stand",
+        "Bejai",
+        "Bejai Church",
+        "Yeyyadi",
+        "Konchadi",
+        "Bondel",
+        "Kavoor",
+        "Maravoor",
+        "Bajpe"
+      ]
+    },
+    {
+      "id": 82,
+      "number": "51",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Deralakatte",
+        "Mangalore University",
+        "Konaje"
+      ]
+    },
+    {
+      "id": 83,
+      "number": "51A",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Deralakatte",
+        "Mangalore University",
+        "Konaje",
+        "Inoli"
+      ]
+    },
+    {
+      "id": 84,
+      "number": "53",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Chilimbi",
+        "Urva Stores",
+        "Kottara Chowki",
+        "Kuloor",
+        "Panambur",
+        "Surathkal",
+        "Kana",
+        "Krishnapur",
+        "Katipalla",
+        "Soorinje",
+        "Tibar"
+      ]
+    },
+    {
+      "id": 85,
+      "number": "53A",
+      "confidence": "low",
+      "stops": [
+        "Kankanady",
+        "Pumpwell",
+        "Nanthur",
+        "Kadri",
+        "Kuloor",
+        "Surathkal",
+        "Chokkabettu",
+        "Katipalla",
+        "Soorinje",
+        "Tibar"
+      ]
+    },
+    {
+      "id": 86,
+      "number": "54",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Beeri",
+        "Maddur",
+        "Natekal",
+        "Manjanady",
+        "Thaudugoli"
+      ]
+    },
+    {
+      "id": 87,
+      "number": "54A",
+      "confidence": "low",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Deralakatte",
+        "Natekal",
+        "Manjanady",
+        "Thaudugoli"
+      ]
+    },
+    {
+      "id": 88,
+      "number": "55",
+      "confidence": "high",
+      "stops": [
+        "State Bank",
+        "Balmatta",
+        "Jyothi",
+        "Kankanady",
+        "Pumpwell",
+        "Thokkottu",
+        "Kuthar",
+        "Deralakatte",
+        "Natekal",
+        "Konaje",
+        "Fajir",
+        "Harekal",
+        "Pavoor"
+      ]
+    },
+    {
+      "id": 89,
+      "number": "59",
+      "confidence": "medium",
+      "stops": [
+        "State Bank",
+        "K.S. Rao Road",
+        "PVS",
+        "Empire Mall",
+        "Ballalbagh",
+        "Lalbagh",
+        "Ladyhill",
+        "Kuloor",
+        "Baikampady",
+        "Chitrapur",
+        "Hosabettu",
+        "Surathkal"
+      ]
+    },
+    {
+      "id": 90,
+      "number": "60",
+      "confidence": "medium",
+      "stops": [
+        "Anandanagar",
+        "Nandanapura",
+        "Malemar",
+        "Ladyhill",
+        "Bejai Museum",
+        "Kadri Temple",
+        "Kankanady",
+        "Valencia",
+        "Gorigudde"
+      ]
+    },
+    {
+      "id": 91,
+      "number": "61",
+      "confidence": "medium",
+      "stops": [
+        "Kodikal",
+        "Kodikal Cross",
+        "Ladyhill",
+        "Bejai Museum",
+        "Kadri Temple",
+        "Pumpwell",
+        "Padil",
+        "Kankanady"
+      ]
+    },
+    {
+      "id": 92,
+      "number": "62A",
+      "confidence": "medium",
+      "stops": [
+        "Padil Railway Station",
+        "KPT",
+        "Bondel",
+        "Kavoor",
+        "Kulur",
+        "Kaikamba",
+        "Katipalla"
+      ]
+    },
+    {
+      "id": 93,
+      "number": "64",
+      "confidence": "medium",
+      "stops": [
+        "Moodushedde",
+        "Vamanjoor",
+        "Kudpu Temple",
+        "Govt. Dairy Bikarnakatte",
+        "Nanthur",
+        "KPT",
+        "Yeyyadi",
+        "Maryhill",
+        "Bondel",
+        "Kavoor",
+        "Kulur",
+        "Panambur",
+        "Chitrapur Temple",
+        "Hosabettu",
+        "Chokkabettu",
+        "Katipalla",
+        "Mangalpete",
+        "Kuthethur"
+      ],
+      "note": "Stop \"K.P.T. Yeyyady\" was split into two stops: KPT and Yeyyadi."
+    }
+  ],
+  "aliases": {
+    "Airport": "Bajpe Airport",
+    "Attavara": "Attavar",
+    "Bajpe Aerodrome": "Bajpe Airport",
+    "First nureo": "First Neuro",
+    "Govt. Womens polytechnic": "Govt. Women's Polytechnic",
+    "IXE": "Bajpe Airport",
+    "Infosys": "Kottara",
+    "Jokatta": "Jokatte",
+    "K.P.T": "KPT",
+    "KSRTC": "KSRTC Bus Stand",
+    "Kaana": "Kana",
+    "Kaatipalla": "Katipalla",
+    "Kankanadi": "Kankanady",
+    "Kuthethoor": "Kuthethur",
+    "Lady Hill": "Ladyhill",
+    "Ladyhil": "Ladyhill",
+    "Lal Bagh": "Lalbagh",
+    "Launch Jetty": "Adyar Launch Jetty",
+    "Mallikatta": "Mallikatte",
+    "Mangalapete": "Mangalpete",
+    "Mangaldevi": "Mangaladevi",
+    "Mangalore Airport": "Bajpe Airport",
+    "Mangalore Central": "Railway Central",
+    "Mangalore International Airport": "Bajpe Airport",
+    "Nanthur Cross": "Nanthur",
+    "Nantoor": "Nanthur",
+    "Padeel": "Padil",
+    "Padil Railway": "Padil Railway Station",
+    "Panamboor": "Panambur",
+    "Statebank": "State Bank",
+    "Sultan Battery": "Sulthan Battery",
+    "Sulthan Bathery": "Sulthan Battery",
+    "Suratkal Chokkabettu": "Chokkabettu",
+    "Thannir Bavi": "Tannirbavi",
+    "Urva Store": "Urva Stores",
+    "Vamanjuru": "Vamanjoor"
+  }
+}
