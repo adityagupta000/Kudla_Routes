@@ -6,10 +6,12 @@
   "scripts": {
     "start": "node backend/index.js",
     "dev": "node --watch backend/index.js",
-    "test": "node --test test/"
+    "test": "node --test test/planner.test.js test/data.test.js test/data-report.test.js test/migrate-evidence.test.js test/api.test.js test/properties.test.js test/exhaustive.test.js test/oracle.test.js test/completeness.test.js test/ratelimit.test.js test/fixes.test.js test/navigation.test.js",
+    "data:report": "node data/scripts/report.js",
+    "data:validate-baseline": "node data/scripts/direction-aware-report.js"
   },
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "license": "ISC",
   "dependencies": {
