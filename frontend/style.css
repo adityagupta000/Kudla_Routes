@@ -42,6 +42,8 @@
   --plate: #ffd23f;
   --plate-ink: #111111;
   --caution: #9a5800;
+  --success: #1a6b2f;
+  --focus-ring: #0b6e7a;
   --font-body:
     "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --font-display:
@@ -66,6 +68,33 @@ main {
   padding: 1.75rem 1rem 4rem;
 }
 
+/* ---- skip link ---------------------------------------------------------- */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 1rem;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--ink);
+  color: var(--surface);
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.skip-link:focus {
+  left: 1rem;
+}
+
+/* ---- noscript ----------------------------------------------------------- */
+.noscript-notice {
+  max-width: 40rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: var(--surface);
+  border-left: 5px solid var(--caution);
+  border-radius: 6px;
+}
+
 h1 {
   margin: 0 0 0.5rem;
   font: 700 2.5rem/1.05 var(--font-display);
@@ -83,9 +112,11 @@ header p {
   text-wrap: pretty;
 }
 
+/* ---- focus styles ------------------------------------------------------- */
 :focus-visible {
-  outline: 3px solid var(--sea);
+  outline: 3px solid var(--focus-ring);
   outline-offset: 2px;
+  border-radius: 3px;
 }
 
 /* ---- the plate: the one memorable thing --------------------------------- */
@@ -210,9 +241,24 @@ input::placeholder {
   border: 0;
   border-radius: 10px;
   cursor: pointer;
+  transition: background 0.15s;
 }
 .go:hover {
   background: var(--sea-dark);
+}
+.go[aria-busy="true"] {
+  opacity: 0.75;
+  cursor: wait;
+}
+
+/* Phase 4: reduced motion — remove transitions for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .go {
+    transition: none;
+  }
+  details[open] summary ~ * {
+    animation: none;
+  }
 }
 
 /* autocomplete list */
@@ -249,11 +295,38 @@ input::placeholder {
   background: var(--sea-tint);
 }
 
+/* ---- recent searches (Phase 5) ----------------------------------------- */
+#recent-searches {
+  margin: 0.75rem 0 0;
+}
+#recent-searches .recent-label {
+  font-size: 0.875rem;
+  color: var(--slate);
+  margin: 0 0 0.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+#recent-searches .recent-clear {
+  font: 500 0.8125rem var(--font-body);
+  color: var(--sea-dark);
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-decoration: underline;
+}
+#recent-searches .chips {
+  margin-top: 0;
+}
+
 /* ---- messages ----------------------------------------------------------- */
 #status {
   min-height: 1.5rem;
   margin-top: 1rem;
   color: var(--slate);
+  font-size: 0.9375rem;
 }
 .notice {
   margin: 1rem 0 0;
@@ -272,8 +345,9 @@ input::placeholder {
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
+/* Phase 4: touch target min 44px */
 .chip {
-  min-height: 2.5rem;
+  min-height: 2.75rem;
   padding: 0 0.875rem;
   font: 500 1rem var(--font-body);
   color: var(--sea-dark);
@@ -284,6 +358,33 @@ input::placeholder {
 }
 .chip:hover {
   background: var(--sea-tint);
+}
+
+/* ---- share button (Phase 5) -------------------------------------------- */
+.share-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.share-btn {
+  min-height: 2.75rem; /* WP4: 44px touch target (was 2.5rem=40px) */
+  padding: 0 0.875rem;
+  font: 500 0.9375rem var(--font-body);
+  color: var(--sea-dark);
+  background: var(--surface);
+  border: 1.5px solid var(--hairline);
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+.share-btn:hover {
+  border-color: var(--sea);
+}
+.share-btn svg {
+  width: 1rem;
+  height: 1rem;
 }
 
 /* ---- a journey ---------------------------------------------------------- */
@@ -317,6 +418,16 @@ input::placeholder {
   font-weight: 600;
 }
 
+/* ---- ranking note ------------------------------------------------------- */
+.ranking-note {
+  margin: 0.5rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--slate);
+  font-style: italic;
+  border-top: 1px solid var(--hairline);
+  padding-top: 0.5rem;
+}
+
 .trip {
   margin: 0;
   padding: 0;
@@ -330,6 +441,27 @@ input::placeholder {
 .node {
   padding: 0.2rem 0;
   font-weight: 600;
+  overflow-wrap: break-word; /* WP4: prevent long stop names from overflowing at 320px */
+}
+/* Issue 1: stop names are now buttons so keyboard users can open stop details.
+   Style them to look like plain text, inheriting the node's weight and colour. */
+.stop-name-btn {
+  font: inherit;
+  font-weight: 600;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 2px;
+}
+.stop-name-btn:hover,
+.stop-name-btn:focus-visible {
+  text-decoration-style: solid;
+  outline-offset: 2px;
 }
 .node::before {
   content: "";
@@ -404,7 +536,7 @@ input::placeholder {
   font-size: 1.25rem;
 }
 .plates .more {
-  min-height: 2rem;
+  min-height: 2.75rem; /* WP4: 44px touch target (was 2rem=32px) */
   padding: 0 0.625rem;
   font: 600 0.9375rem var(--font-body);
   color: var(--sea-dark);
@@ -432,12 +564,27 @@ input::placeholder {
 .via li::before {
   content: "– ";
 }
+
+/* ---- evidence labels ---------------------------------------------------- */
 .trust {
   margin: 0.125rem 0 0;
   font-size: 0.875rem;
   color: var(--slate);
 }
 .trust.low {
+  color: var(--caution);
+}
+.trust.medium {
+  color: var(--slate);
+}
+.trust.high {
+  color: var(--slate);
+}
+/* Phase 1/3: direction-not-confirmed note */
+.direction-note {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.8125rem;
   color: var(--caution);
 }
 
@@ -490,6 +637,14 @@ input::placeholder {
 #bus-list .trip {
   padding: 0.25rem 1rem 1rem;
 }
+#bus-list .bus-evidence {
+  padding: 0 1rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--slate);
+}
+#bus-list .bus-evidence.low {
+  color: var(--caution);
+}
 .empty {
   padding: 1rem;
   color: var(--slate);
@@ -501,6 +656,12 @@ footer {
   font-size: 0.9375rem;
   max-width: 34rem;
 }
+footer p {
+  margin: 0 0 0.75rem;
+}
+footer strong {
+  color: var(--ink);
+}
 
 @media (min-width: 40rem) {
   h1 {
@@ -508,5 +669,70 @@ footer {
   }
   main {
     padding-top: 3rem;
+  }
+}
+
+/* ---- print styles (Phase 5) --------------------------------------------- */
+@media print {
+  body {
+    background: white;
+    color: black;
+    font-family: system-ui, sans-serif;
+  }
+
+  .skip-link,
+  #planner,
+  #recent-searches,
+  #status,
+  #browse,
+  .share-row,
+  .plates .more,
+  .notice .chips {
+    display: none !important;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.25rem;
+  }
+
+  header p {
+    display: none;
+  }
+
+  .journey {
+    border: 1px solid #ccc;
+    page-break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+
+  .journey.best {
+    border: 2px solid #0b6e7a;
+  }
+
+  .plate {
+    background: #ffd23f;
+    border: 1px solid black;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  footer {
+    margin-top: 1.5rem;
+    font-size: 0.8125rem;
+    color: #444;
+    border-top: 1px solid #ccc;
+    padding-top: 0.75rem;
+  }
+
+  .trust,
+  .direction-note,
+  .ranking-note {
+    display: block !important;
   }
 }
