@@ -1,13 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="en-IN">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mangalore bus finder</title>
+    <title>Kudla Route — Mangaluru Bus Finder</title>
     <meta
       name="description"
-      content="Find which city bus to take between two stops in Mangalore, and where to change."
+      content="Find which city bus to take between two stops in Mangaluru, and where to change."
     />
+    <meta name="theme-color" content="#0b6e7a" />
+    <!-- Favicon: bus emoji as SVG file (WP4 — avoids data: URI blocked by CSP) -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link
       rel="preload"
       href="fonts/barlow-condensed-latin-700-normal.woff2"
@@ -18,10 +21,13 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <!-- Skip navigation link for keyboard users -->
+    <a class="skip-link" href="#planner">Skip to journey planner</a>
+
     <main>
       <header>
         <h1>Which bus do I take?</h1>
-        <p>Mangalore city buses. Enter where you are and where you're going.</p>
+        <p>Mangaluru city buses. Enter where you are and where you're going.</p>
       </header>
 
       <form id="planner" autocomplete="off" novalidate>
@@ -91,15 +97,19 @@
               stroke-linecap="round"
               stroke-linejoin="round"
               aria-hidden="true"
+              focusable="false"
             >
               <path d="M7 4v16M7 4 3 8M7 4l4 4M17 20V4M17 20l-4-4M17 20l4-4" />
             </svg>
           </button>
         </div>
-        <button type="submit" class="go">Find buses</button>
+        <button type="submit" class="go" id="go-btn">Find buses</button>
       </form>
 
-      <div id="status" role="status" aria-live="polite"></div>
+      <!-- Recent searches (Phase 5) -->
+      <div id="recent-searches" aria-label="Recent searches" hidden></div>
+
+      <div id="status" role="status" aria-live="polite" aria-atomic="true"></div>
       <section id="results" aria-label="Ways to get there"></section>
 
       <details id="browse">
@@ -111,19 +121,36 @@
           aria-label="Filter bus routes"
           spellcheck="false"
         />
-        <ul id="bus-list"></ul>
+        <ul id="bus-list" aria-label="Bus routes list"></ul>
       </details>
 
       <footer>
         <p>
-          Bus numbers and route ends were checked against Wikipedia and a local
-          bus list where possible. The stops in between come from the original
-          route list and could not be confirmed online. Operators change routes
-          and numbers, so check the destination with the conductor before you
+          <strong>About this data:</strong> Bus route endpoints were
+          cross-checked against public sources for most routes. Intermediate
+          stop sequences have <em>not</em> been independently confirmed for any
+          route. Return directions have not been verified — only the stored
+          forward direction is used for planning. Operators change routes and
+          numbers; check the destination board with the conductor before you
           board.
+        </p>
+        <p>
+          Kudla Route is not an official operator service. No timetables,
+          fares, or live locations are available.
         </p>
       </footer>
     </main>
+
+    <noscript>
+      <div class="noscript-notice">
+        <p>
+          Kudla Route requires JavaScript to work. Please enable JavaScript in
+          your browser to find bus routes.
+        </p>
+      </div>
+    </noscript>
+
+    <script src="navigation.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
