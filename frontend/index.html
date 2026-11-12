@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Mangalore bus finder</title>
+    <meta
+      name="description"
+      content="Find which city bus to take between two stops in Mangalore, and where to change."
+    />
+    <link
+      rel="preload"
+      href="fonts/barlow-condensed-latin-700-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Which bus do I take?</h1>
+        <p>Mangalore city buses. Enter where you are and where you're going.</p>
+      </header>
+
+      <form id="planner" autocomplete="off" novalidate>
+        <div class="fields">
+          <div class="field">
+            <label for="from">From</label>
+            <span class="marker start" aria-hidden="true"></span>
+            <div class="combo">
+              <input
+                id="from"
+                name="from"
+                type="text"
+                placeholder="Starting stop"
+                spellcheck="false"
+                autocapitalize="words"
+                role="combobox"
+                aria-expanded="false"
+                aria-controls="from-list"
+                aria-autocomplete="list"
+              />
+              <ul
+                id="from-list"
+                role="listbox"
+                aria-label="Matching stops"
+                hidden
+              ></ul>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="to">To</label>
+            <span class="marker end" aria-hidden="true"></span>
+            <div class="combo">
+              <input
+                id="to"
+                name="to"
+                type="text"
+                placeholder="Destination"
+                spellcheck="false"
+                autocapitalize="words"
+                role="combobox"
+                aria-expanded="false"
+                aria-controls="to-list"
+                aria-autocomplete="list"
+              />
+              <ul
+                id="to-list"
+                role="listbox"
+                aria-label="Matching stops"
+                hidden
+              ></ul>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            id="swap"
+            aria-label="Swap start and destination"
+          >
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2.2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M7 4v16M7 4 3 8M7 4l4 4M17 20V4M17 20l-4-4M17 20l4-4" />
+            </svg>
+          </button>
+        </div>
+        <button type="submit" class="go">Find buses</button>
+      </form>
+
+      <div id="status" role="status" aria-live="polite"></div>
+      <section id="results" aria-label="Ways to get there"></section>
+
+      <details id="browse">
+        <summary>Browse all bus routes</summary>
+        <input
+          id="filter"
+          type="search"
+          placeholder="Filter by bus number or stop"
+          aria-label="Filter bus routes"
+          spellcheck="false"
+        />
+        <ul id="bus-list"></ul>
+      </details>
+
+      <footer>
+        <p>
+          Bus numbers and route ends were checked against Wikipedia and a local
+          bus list where possible. The stops in between come from the original
+          route list and could not be confirmed online. Operators change routes
+          and numbers, so check the destination with the conductor before you
+          board.
+        </p>
+      </footer>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
