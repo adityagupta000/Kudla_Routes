@@ -1,0 +1,219 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/kudla-route-data.schema.json",
+  "title": "Kudla Route Mangaluru Transit Dataset",
+  "type": "object",
+  "required": [
+    "metadata",
+    "sources",
+    "agencies",
+    "stops",
+    "routes",
+    "aliases",
+    "service_notices"
+  ],
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "required": [
+        "dataset_id",
+        "schema_version",
+        "generated_at",
+        "official_status",
+        "counts"
+      ],
+      "properties": {
+        "dataset_id": {
+          "type": "string"
+        },
+        "schema_version": {
+          "type": "string"
+        },
+        "official_status": {
+          "const": "not_officially_verified"
+        },
+        "counts": {
+          "type": "object"
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "source_id",
+          "title",
+          "source_type",
+          "retrieved_at",
+          "limitations"
+        ],
+        "properties": {
+          "source_id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "source_type": {
+            "type": "string"
+          },
+          "url": {
+            "type": ["string", "null"],
+            "format": "uri"
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "limitations": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "agencies": {
+      "type": "array"
+    },
+    "stops": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "stop_id",
+          "name",
+          "aliases",
+          "location",
+          "identity_status",
+          "served_by_route_ids",
+          "source_ids"
+        ],
+        "properties": {
+          "stop_id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "location": {
+            "type": ["object", "null"]
+          },
+          "identity_status": {
+            "type": "string"
+          },
+          "served_by_route_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "routes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "route_id",
+          "route_number",
+          "operating_status",
+          "patterns",
+          "reverse_service_status"
+        ],
+        "properties": {
+          "route_id": {
+            "type": "string"
+          },
+          "route_number": {
+            "type": "string"
+          },
+          "operating_status": {
+            "type": "string"
+          },
+          "reverse_service_status": {
+            "type": "string"
+          },
+          "patterns": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "pattern_id",
+                "direction_id",
+                "direction_type",
+                "directionality_status",
+                "origin_stop_id",
+                "destination_stop_id",
+                "stop_sequence",
+                "verification_status",
+                "source_ids"
+              ],
+              "properties": {
+                "pattern_id": {
+                  "type": "string"
+                },
+                "direction_id": {
+                  "type": "string"
+                },
+                "direction_type": {
+                  "type": "string"
+                },
+                "directionality_status": {
+                  "type": "string"
+                },
+                "origin_stop_id": {
+                  "type": "string"
+                },
+                "destination_stop_id": {
+                  "type": "string"
+                },
+                "stop_sequence": {
+                  "type": "array",
+                  "minItems": 2,
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "verification_status": {
+                  "type": "string"
+                },
+                "source_ids": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "service_notices": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": false
+}
