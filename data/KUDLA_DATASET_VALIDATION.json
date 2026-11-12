@@ -1,0 +1,18 @@
+{
+  "file": "data/kudla-route-data.json",
+  "dataset_role": "direction-aware research/migration baseline; not runtime data",
+  "bytes": 280134,
+  "routes": 99,
+  "stops": 186,
+  "aliases": 36,
+  "listed_patterns": 99,
+  "verified_patterns": 0,
+  "reverse_patterns": 0,
+  "service_notices": 1,
+  "route_patterns_with_verified_reverse": 0,
+  "route_patterns_with_operator_verified_stop_sequence": 0,
+  "structurally_valid": true,
+  "errors": [],
+  "factual_verification": "Structural consistency only; it does not prove route sequence, direction, current operation, or other real-world facts.",
+  "sha256": "1abd39377df7dc6239de298152a9d7919686f0eb26373efd45a86ba190bf40c0"
+}
