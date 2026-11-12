@@ -1,0 +1,512 @@
+/* Barlow (SIL Open Font License), self-hosted so the app works offline */
+@font-face {
+  font-family: "Barlow";
+  font-weight: 400;
+  font-display: swap;
+  src: url("fonts/barlow-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Barlow";
+  font-weight: 500;
+  font-display: swap;
+  src: url("fonts/barlow-latin-500-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Barlow";
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/barlow-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-display: swap;
+  src: url("fonts/barlow-condensed-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-display: swap;
+  src: url("fonts/barlow-condensed-latin-700-normal.woff2") format("woff2");
+}
+
+:root {
+  --pavement: #eef2f4;
+  --surface: #ffffff;
+  --ink: #16212b;
+  --slate: #566673;
+  --hairline: #d3dce1;
+  --sea: #0b6e7a;
+  --sea-dark: #08565f;
+  --sea-tint: #e2f1f3;
+  --plate: #ffd23f;
+  --plate-ink: #111111;
+  --caution: #9a5800;
+  --font-body:
+    "Barlow", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-display:
+    "Barlow Condensed", "Arial Narrow", "Roboto Condensed", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+  background: var(--pavement);
+  color: var(--ink);
+  font: 400 1.0625rem/1.5 var(--font-body);
+}
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.75rem 1rem 4rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  font: 700 2.5rem/1.05 var(--font-display);
+  letter-spacing: 0.005em;
+}
+h2 {
+  margin: 1.75rem 0 0.6rem;
+  font: 700 1.5rem/1.2 var(--font-display);
+  letter-spacing: 0.01em;
+}
+header p {
+  margin: 0 0 1.5rem;
+  max-width: 30rem;
+  color: var(--slate);
+  text-wrap: pretty;
+}
+
+:focus-visible {
+  outline: 3px solid var(--sea);
+  outline-offset: 2px;
+}
+
+/* ---- the plate: the one memorable thing --------------------------------- */
+.plate {
+  display: inline-block;
+  min-width: 2.4rem;
+  padding: 0.05rem 0.5rem;
+  text-align: center;
+  font: 700 1.5rem/1.25 var(--font-display);
+  letter-spacing: 0.04em;
+  color: var(--plate-ink);
+  background: var(--plate);
+  border: 2px solid var(--plate-ink);
+  border-radius: 6px;
+  box-shadow: inset 0 0 0 1.5px var(--plate);
+}
+.plate.big {
+  font-size: 1.85rem;
+  min-width: 3rem;
+}
+
+/* ---- planner form ------------------------------------------------------- */
+.fields {
+  position: relative;
+  display: grid;
+  gap: 0.625rem;
+  padding-right: 3.5rem;
+}
+.field {
+  display: grid;
+  grid-template-columns: 1.25rem 1fr;
+  column-gap: 0.75rem;
+  align-items: center;
+}
+.field label {
+  grid-column: 2;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  line-height: 1.375rem;
+}
+.marker {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  justify-self: center;
+  width: 0.875rem;
+  height: 0.875rem;
+}
+.marker.start {
+  border: 3px solid var(--sea);
+  border-radius: 50%;
+  background: var(--surface);
+}
+.marker.end {
+  background: var(--ink);
+  border-radius: 2px;
+}
+.marker.start::after {
+  /* dotted connector down to the destination marker */
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: calc(100% + 2px);
+  height: 4.25rem;
+  border-left: 2px dotted var(--slate);
+  transform: translateX(-1px);
+}
+.combo {
+  grid-column: 2;
+  grid-row: 2;
+  position: relative;
+}
+
+input[type="text"],
+input[type="search"] {
+  width: 100%;
+  height: 3.375rem;
+  padding: 0 0.875rem;
+  font: 500 1.0625rem var(--font-body);
+  color: var(--ink);
+  background: var(--surface);
+  border: 2px solid var(--hairline);
+  border-radius: 10px;
+}
+input:focus {
+  outline: none;
+  border-color: var(--sea);
+  box-shadow: 0 0 0 3px var(--sea-tint);
+}
+input::placeholder {
+  color: var(--slate);
+  opacity: 0.8;
+}
+
+#swap {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.75rem;
+  height: 2.75rem;
+  display: grid;
+  place-items: center;
+  color: var(--sea);
+  background: var(--surface);
+  border: 2px solid var(--hairline);
+  border-radius: 50%;
+  cursor: pointer;
+}
+#swap:hover {
+  border-color: var(--sea);
+}
+
+.go {
+  width: 100%;
+  margin-top: 1rem;
+  height: 3.375rem;
+  font: 700 1.25rem var(--font-display);
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: var(--sea);
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.go:hover {
+  background: var(--sea-dark);
+}
+
+/* autocomplete list */
+[role="listbox"] {
+  position: absolute;
+  z-index: 10;
+  left: 0;
+  right: 0;
+  top: calc(100% + 4px);
+  margin: 0;
+  padding: 0.25rem 0;
+  list-style: none;
+  max-height: 17rem;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(22, 33, 43, 0.14);
+}
+[role="option"] {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.7rem 0.875rem;
+  cursor: pointer;
+}
+[role="option"] small {
+  color: var(--slate);
+  white-space: nowrap;
+  align-self: center;
+}
+[role="option"][aria-selected="true"],
+[role="option"]:hover {
+  background: var(--sea-tint);
+}
+
+/* ---- messages ----------------------------------------------------------- */
+#status {
+  min-height: 1.5rem;
+  margin-top: 1rem;
+  color: var(--slate);
+}
+.notice {
+  margin: 1rem 0 0;
+  padding: 0.875rem 1rem;
+  background: var(--surface);
+  border-left: 5px solid var(--caution);
+  border-radius: 6px;
+}
+.notice p {
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+.chip {
+  min-height: 2.5rem;
+  padding: 0 0.875rem;
+  font: 500 1rem var(--font-body);
+  color: var(--sea-dark);
+  background: var(--surface);
+  border: 1.5px solid var(--sea);
+  border-radius: 999px;
+  cursor: pointer;
+}
+.chip:hover {
+  background: var(--sea-tint);
+}
+
+/* ---- a journey ---------------------------------------------------------- */
+.journey {
+  margin: 0 0 0.875rem;
+  padding: 1rem 1rem 0.5rem;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+}
+.journey.best {
+  border: 2px solid var(--sea);
+}
+.journey-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.625rem;
+  margin-bottom: 0.75rem;
+}
+.journey-head small {
+  color: var(--slate);
+  font-weight: 600;
+}
+.journey-head .then {
+  color: var(--slate);
+}
+.summary {
+  margin-left: auto;
+  color: var(--slate);
+  font-weight: 600;
+}
+
+.trip {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.trip > li {
+  position: relative;
+  padding-left: 2.25rem;
+}
+
+.node {
+  padding: 0.2rem 0;
+  font-weight: 600;
+}
+.node::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  left: 0.3125rem;
+  top: 0.55rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 3px solid var(--line, var(--ink));
+}
+.node.end::before {
+  border-radius: 2px;
+  background: var(--line);
+}
+.node .hint {
+  display: block;
+  font-weight: 400;
+  font-size: 0.9375rem;
+  color: var(--slate);
+}
+
+/* full route of one bus (browse section): a line joins each stop to the next */
+.trip.plain .node:not(.end)::after {
+  content: "";
+  position: absolute;
+  left: 0.6375rem;
+  top: 1rem;
+  bottom: -0.55rem;
+  width: 0.25rem;
+  background: var(--line);
+}
+.trip.plain .node.stop::before {
+  left: 0.4875rem;
+  top: 0.725rem;
+  width: 0.55rem;
+  height: 0.55rem;
+  border: 0;
+  background: var(--line);
+}
+
+.ride {
+  padding: 0.5rem 0;
+}
+.ride::before {
+  content: "";
+  position: absolute;
+  left: 0.6375rem;
+  top: -0.6rem;
+  bottom: -0.6rem;
+  width: 0.25rem;
+  border-radius: 2px;
+  background: var(--line);
+}
+.take {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.375rem 0.5rem;
+}
+.take .count {
+  color: var(--slate);
+}
+.plates {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.375rem;
+}
+.plates .plate {
+  font-size: 1.25rem;
+}
+.plates .more {
+  min-height: 2rem;
+  padding: 0 0.625rem;
+  font: 600 0.9375rem var(--font-body);
+  color: var(--sea-dark);
+  background: none;
+  border: 1.5px solid var(--hairline);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.ride summary {
+  padding: 0.5rem 0;
+  color: var(--sea-dark);
+  font-weight: 600;
+  cursor: pointer;
+}
+.via {
+  margin: 0 0 0.5rem;
+  padding: 0 0 0 0.25rem;
+  list-style: none;
+  color: var(--slate);
+}
+.via li {
+  padding: 0.1rem 0;
+}
+.via li::before {
+  content: "– ";
+}
+.trust {
+  margin: 0.125rem 0 0;
+  font-size: 0.875rem;
+  color: var(--slate);
+}
+.trust.low {
+  color: var(--caution);
+}
+
+/* ---- browse all buses --------------------------------------------------- */
+#browse {
+  margin-top: 2.5rem;
+}
+#browse > summary {
+  padding: 0.875rem 1rem;
+  font: 700 1.25rem var(--font-display);
+  letter-spacing: 0.01em;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 10px;
+  cursor: pointer;
+}
+#browse[open] > summary {
+  border-radius: 10px 10px 0 0;
+}
+#browse input {
+  margin: 0.75rem 0;
+}
+#bus-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#bus-list > li {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-top: 0;
+}
+#bus-list > li:first-child {
+  border-top: 1px solid var(--hairline);
+}
+#bus-list summary {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 1rem;
+  cursor: pointer;
+}
+#bus-list summary .route {
+  flex: 1;
+}
+#bus-list summary small {
+  color: var(--slate);
+  white-space: nowrap;
+}
+#bus-list .trip {
+  padding: 0.25rem 1rem 1rem;
+}
+.empty {
+  padding: 1rem;
+  color: var(--slate);
+}
+
+footer {
+  margin-top: 2.5rem;
+  color: var(--slate);
+  font-size: 0.9375rem;
+  max-width: 34rem;
+}
+
+@media (min-width: 40rem) {
+  h1 {
+    font-size: 3.25rem;
+  }
+  main {
+    padding-top: 3rem;
+  }
+}
