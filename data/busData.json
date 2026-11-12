@@ -15,13 +15,31 @@
         "Kavoor",
         "MCF Colony",
         "Kunjathbail"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 26,
       "number": "1A",
       "confidence": "high",
-      "stops": ["State Bank", "Lalbagh", "Urva Stores", "Kulur", "Tannirbavi"]
+      "stops": [
+        "State Bank",
+        "Lalbagh",
+        "Urva Stores",
+        "Kulur",
+        "Tannirbavi"
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 27,
@@ -35,7 +53,13 @@
         "Chilimbi",
         "Urva Stores",
         "Kodikal"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 28,
@@ -50,7 +74,13 @@
         "Kodikal Cross",
         "Kodikal"
       ],
-      "note": "Both sources start this route at Mangaladevi; this data starts at State Bank."
+      "note": "Both sources start this route at Mangaladevi; this data starts at State Bank.",
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 29,
@@ -63,7 +93,13 @@
         "Baikampady",
         "Surathkal",
         "Mukka"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 37,
@@ -77,7 +113,13 @@
         "Surathkal",
         "Mukka",
         "Sasihitlu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 38,
@@ -92,7 +134,13 @@
         "Kana",
         "Port Temple",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 39,
@@ -105,7 +153,13 @@
         "Baikampady",
         "Baikampady Industrial Estate",
         "Jokatte"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 40,
@@ -119,7 +173,13 @@
         "Baikampady Industrial Estate",
         "Jokatte",
         "Parkodi"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 41,
@@ -135,7 +195,13 @@
         "Jokatte",
         "Kalavar",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 42,
@@ -151,7 +217,13 @@
         "Jokatte",
         "Kalavar",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 43,
@@ -168,7 +240,13 @@
         "Kudupu",
         "Vamanjoor",
         "Moodushedde"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 52,
@@ -185,7 +263,13 @@
         "Kudupu",
         "Vamanjoor",
         "Moodushedde"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 53,
@@ -201,7 +285,13 @@
         "Kudupu",
         "Vamanjoor",
         "Moodushedde"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 54,
@@ -214,7 +304,13 @@
         "Kudpu Temple",
         "Mangala Jyoti",
         "Moodushedde"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 55,
@@ -227,7 +323,13 @@
         "Kadri",
         "Vamanjoor",
         "Ulaibettu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 56,
@@ -243,7 +345,13 @@
         "Bikkarnakatta",
         "Kulshekar",
         "Kulshekar Chowki"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 79,
@@ -261,7 +369,13 @@
         "Kaikamba",
         "Neermarga",
         "Merlapadavu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 80,
@@ -278,7 +392,13 @@
         "Kulshekar",
         "Kaikamba",
         "Neermarga"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 81,
@@ -292,7 +412,13 @@
         "Nandigudda",
         "Marnamikatta",
         "Morgan Gate"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 94,
@@ -307,7 +433,13 @@
         "Bikkarnakatta",
         "Kulshekar",
         "Shaktinagar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 95,
@@ -323,7 +455,13 @@
         "Bikkarnakatta",
         "Kulshekar",
         "Shaktinagar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 96,
@@ -338,7 +476,13 @@
         "Bikkarnakatta",
         "Kulshekar",
         "Shaktinagar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 97,
@@ -352,7 +496,13 @@
         "Ladyhill",
         "Chilimbi",
         "Urva Stores"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 98,
@@ -369,7 +519,13 @@
         "Bajal",
         "Bajal Pakkaladka",
         "J.M. Road"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 99,
@@ -385,7 +541,13 @@
         "Bajal Pakkaladka",
         "J.M. Road"
       ],
-      "note": "Route list used to continue to Railway Junction; both sources end it at J.M. Road, so that last stop was removed."
+      "note": "Route list used to continue to Railway Junction; both sources end it at J.M. Road, so that last stop was removed.",
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 2,
@@ -403,7 +565,13 @@
         "Adyar",
         "Adyar Launch Jetty"
       ],
-      "note": "Final stop was typed as \"Launch Jetty\"; read as Adyar Launch Jetty (matches bus 30B)."
+      "note": "Final stop was typed as \"Launch Jetty\"; read as Adyar Launch Jetty (matches bus 30B).",
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 3,
@@ -419,7 +587,13 @@
         "Padil",
         "Kannurbettu",
         "Adyar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 4,
@@ -437,7 +611,13 @@
         "Kannurbettu",
         "Adyar"
       ],
-      "note": "Stop list continues to Adyar; sources disagree on whether the bus ends at Kannurbettu or Adyar."
+      "note": "Stop list continues to Adyar; sources disagree on whether the bus ends at Kannurbettu or Adyar.",
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 5,
@@ -451,7 +631,13 @@
         "Garodi",
         "Padil",
         "Jalligudde"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 6,
@@ -471,7 +657,13 @@
         "Kaikamba",
         "Addoor",
         "Polali"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 7,
@@ -492,7 +684,13 @@
         "Addoor",
         "Polali",
         "Kolthamajal"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 8,
@@ -505,7 +703,13 @@
         "Ladyhill",
         "Chilimbi",
         "Urva Stores"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 9,
@@ -519,7 +723,13 @@
         "Chilimbi",
         "Urva Stores",
         "Kottara"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 10,
@@ -537,7 +747,13 @@
         "Govt. Quarters",
         "Kavoor",
         "Bondel"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 11,
@@ -557,7 +773,13 @@
         "Bondel",
         "Padangady",
         "Pacchanady Beggari Colony"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 12,
@@ -577,7 +799,13 @@
         "Kavoor",
         "Bondel"
       ],
-      "note": "Both sources list a Kunjathbail-Surathkal route under this number; this data has Mangaladevi-Bondel."
+      "note": "Both sources list a Kunjathbail-Surathkal route under this number; this data has Mangaladevi-Bondel.",
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 13,
@@ -596,7 +824,13 @@
         "Konchadi",
         "Padangady",
         "Bondel"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 14,
@@ -615,7 +849,13 @@
         "Konchadi",
         "Padangady",
         "Bondel"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 15,
@@ -637,7 +877,13 @@
         "Konchadi",
         "Padangady",
         "Bondel"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 16,
@@ -660,7 +906,13 @@
         "Kuloor",
         "Baikampady",
         "Surathkal"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 17,
@@ -685,7 +937,13 @@
         "Surathkal",
         "Krishnapur",
         "Katipalla"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 18,
@@ -711,7 +969,13 @@
         "Krishnapur",
         "Katipalla",
         "Chelairpadavu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 19,
@@ -728,7 +992,13 @@
         "Bokkapatna",
         "Boloor",
         "Sulthan Battery"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 20,
@@ -742,7 +1012,13 @@
         "Bokkapatna",
         "Boloor",
         "Sulthan Battery"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 21,
@@ -767,7 +1043,13 @@
         "Kavoor",
         "Maravoor",
         "Kunjathbail"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 22,
@@ -792,7 +1074,13 @@
         "Kavoor",
         "Maravoor",
         "Kunjathbail"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 23,
@@ -817,7 +1105,13 @@
         "Kavoor",
         "Maravoor",
         "Kunjathbail"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 24,
@@ -830,7 +1124,13 @@
         "Bolar",
         "Jeppu Market",
         "Morgan Gate"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 25,
@@ -854,7 +1154,13 @@
         "Padavinangadi",
         "Bondel",
         "Pacchanady"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 30,
@@ -871,7 +1177,13 @@
         "Kulshekar",
         "Kaikamba",
         "Neermarga"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 31,
@@ -889,7 +1201,13 @@
         "Gurupura",
         "Kaikamba",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 32,
@@ -909,7 +1227,13 @@
         "Bajpe",
         "Bajpe Airport"
       ],
-      "note": "Sources name the terminus Adyapady (the Bajpe airport road); stop list here ends at Bajpe Airport."
+      "note": "Sources name the terminus Adyapady (the Bajpe airport road); stop list here ends at Bajpe Airport.",
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 33,
@@ -925,7 +1249,13 @@
         "Garodi",
         "Padil",
         "Faisalnagar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 34,
@@ -937,7 +1267,13 @@
         "Nandigudda",
         "Marnamikatta",
         "Mangaladevi"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 35,
@@ -950,7 +1286,13 @@
         "Marnamikatta",
         "Mangaladevi",
         "Mulihitlu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 36,
@@ -963,7 +1305,13 @@
         "Bolar",
         "Jeppu Market",
         "Morgan Gate"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 44,
@@ -980,7 +1328,13 @@
         "Bikkarnakatta",
         "Maroli",
         "Padil"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 45,
@@ -1000,7 +1354,13 @@
         "Kannurbettu",
         "Adyar"
       ],
-      "note": "Typo \"First nureo\" corrected to First Neuro."
+      "note": "Typo \"First nureo\" corrected to First Neuro.",
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 46,
@@ -1019,7 +1379,13 @@
         "Kannurbettu",
         "Adyar",
         "Adyar Launch Jetty"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 47,
@@ -1034,7 +1400,13 @@
         "Mannagudda",
         "Urva Market",
         "Shediguri"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 48,
@@ -1051,7 +1423,13 @@
         "Ladyhill",
         "Urva Market",
         "Ashoknagar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 49,
@@ -1064,7 +1442,13 @@
         "Urva Market",
         "Ashoknagar",
         "Dombel"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 50,
@@ -1087,7 +1471,13 @@
         "Derebail",
         "Konchadi",
         "Akashbhavan"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 51,
@@ -1104,7 +1494,13 @@
         "Bikkarnakatta",
         "Maroli",
         "Padil"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 57,
@@ -1124,7 +1520,13 @@
         "Krishnapur",
         "Katipalla",
         "Chelairpadavu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 58,
@@ -1140,7 +1542,13 @@
         "Kotekar",
         "Beeri",
         "Talapady"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 59,
@@ -1157,7 +1565,13 @@
         "Beeri",
         "Talapady",
         "Kinya"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 60,
@@ -1172,7 +1586,13 @@
         "Thokkottu",
         "Ullal",
         "Someshwar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 61,
@@ -1187,7 +1607,13 @@
         "Thokkottu",
         "Kotekar",
         "Eliaradavu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 62,
@@ -1202,7 +1628,13 @@
         "Thokkottu",
         "Ullal",
         "Ullal Launch Jetty"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 63,
@@ -1217,7 +1649,13 @@
         "Thokkottu",
         "Ullal",
         "Kotepura"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 64,
@@ -1240,7 +1678,13 @@
         "Kana",
         "Krishnapur",
         "Katipalla"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 65,
@@ -1264,7 +1708,13 @@
         "Krishnapur",
         "Katipalla",
         "Chokkabettu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 66,
@@ -1288,7 +1738,13 @@
         "Krishnapur",
         "Katipalla",
         "Chokkabettu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 67,
@@ -1313,7 +1769,13 @@
         "Katipalla",
         "Mangalpete",
         "Kaikamba"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 68,
@@ -1339,7 +1801,13 @@
         "Mangalpete",
         "MRPL",
         "Kuthethur"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 69,
@@ -1365,7 +1833,13 @@
         "Mangalpete",
         "MRPL",
         "Kaithakurneri"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 70,
@@ -1389,7 +1863,13 @@
         "Krishnapur",
         "Katipalla",
         "Kaikamba"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 71,
@@ -1412,7 +1892,13 @@
         "Kana",
         "Mason Road",
         "Janatha Colony"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 72,
@@ -1436,7 +1922,13 @@
         "Krishnapur",
         "Katipalla",
         "Madhyapadavu"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 73,
@@ -1459,7 +1951,13 @@
         "Kavoor",
         "Maravoor",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 74,
@@ -1482,7 +1980,13 @@
         "Kavoor",
         "Maravoor",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 75,
@@ -1507,7 +2011,13 @@
         "Bajpe",
         "Bajpe Airport"
       ],
-      "note": "Sources name the terminus Adyapady (the Bajpe airport road); stop list here ends at Bajpe Airport."
+      "note": "Sources name the terminus Adyapady (the Bajpe airport road); stop list here ends at Bajpe Airport.",
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 76,
@@ -1533,7 +2043,13 @@
         "Bajpe Airport",
         "Bhatrakere",
         "Kattalsara"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 77,
@@ -1553,7 +2069,13 @@
         "Kavoor",
         "Maravoor",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 78,
@@ -1578,7 +2100,13 @@
         "Kavoor",
         "Maravoor",
         "Bajpe"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 82,
@@ -1594,7 +2122,13 @@
         "Deralakatte",
         "Mangalore University",
         "Konaje"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 83,
@@ -1611,7 +2145,13 @@
         "Mangalore University",
         "Konaje",
         "Inoli"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 84,
@@ -1636,7 +2176,13 @@
         "Katipalla",
         "Soorinje",
         "Tibar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 85,
@@ -1653,7 +2199,13 @@
         "Katipalla",
         "Soorinje",
         "Tibar"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 86,
@@ -1671,7 +2223,13 @@
         "Natekal",
         "Manjanady",
         "Thaudugoli"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 87,
@@ -1688,7 +2246,13 @@
         "Natekal",
         "Manjanady",
         "Thaudugoli"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "UNVERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 88,
@@ -1708,7 +2272,13 @@
         "Fajir",
         "Harekal",
         "Pavoor"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 89,
@@ -1727,7 +2297,13 @@
         "Chitrapur",
         "Hosabettu",
         "Surathkal"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 90,
@@ -1743,7 +2319,13 @@
         "Kankanady",
         "Valencia",
         "Gorigudde"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 91,
@@ -1758,7 +2340,13 @@
         "Pumpwell",
         "Padil",
         "Kankanady"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 92,
@@ -1772,7 +2360,13 @@
         "Kulur",
         "Kaikamba",
         "Katipalla"
-      ]
+      ],
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     },
     {
       "id": 93,
@@ -1798,7 +2392,13 @@
         "Mangalpete",
         "Kuthethur"
       ],
-      "note": "Stop \"K.P.T. Yeyyady\" was split into two stops: KPT and Yeyyadi."
+      "note": "Stop \"K.P.T. Yeyyady\" was split into two stops: KPT and Yeyyadi.",
+      "evidence": {
+        "endpoints": "PARTIALLY_VERIFIED",
+        "stopSequence": "UNKNOWN",
+        "direction": "UNKNOWN",
+        "currentOperation": "UNKNOWN"
+      }
     }
   ],
   "aliases": {
